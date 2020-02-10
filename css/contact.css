@@ -1,0 +1,62 @@
+/* Contact Form */
+section.contact{
+    padding: 20px;
+    max-width: 960px;
+    margin: auto;
+}
+
+section.contact h2{
+    font-size: 2.5em;
+}
+section.contact form label{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+section.contact form input {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #BFBFBF;
+}
+section.contact form input:focus {
+    outline: none;
+    border: 1px solid #ffaf7a;
+}
+section.contact form textarea{
+    width: 100%;
+    height: 150px;
+}
+section.contact form input[type=submit]{
+    font-size: 1.1em;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 10px 20px;
+    width: auto;
+}
+section.contact form input[type=submit]:hover{
+    background: #ffaf7a;
+    color: #333;
+}
+
+/* Ways of Contact */
+section.contact-way{
+    text-align: center;
+    background: #2B2B2B;
+    color: #f4f4f4;
+    overflow: auto;
+}
+section.contact-way div{
+    float: left;
+    width: 33%;
+    padding: 40px;
+}
+section.contact-way div i{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+section.contact-way div h4{
+    margin-bottom: 25px;
+}
