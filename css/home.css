@@ -1,0 +1,68 @@
+
+/* Main Session */
+section.main{
+    background: url('../img/showcase.jpg') no-repeat center center /cover;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 10px 15px;
+}
+section.main h2{
+    padding-top: 115px;
+    font-size: 50px;
+}
+section.main a {
+    background: #333;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+/* More info section */
+section.more-info div{
+    width: 50%;
+    float: left;
+    height: 350px;
+    text-align: center;
+    color: white;
+}
+section.more-info div#front-image{
+    background-image: url('../img/photo-1.jpg');
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+}
+section.more-info div#history{
+    background: #333;
+    padding: 45px 20px;
+}
+section.more-info h3, section.more-info  p{
+    margin-bottom: 15px;
+}
+section.more-info a{
+    background: #fff;
+    margin: auto;
+    color: #333;
+}
+
+/* Services */
+section.services div{
+    float: left;
+    width: 33.3%;
+    padding: 40px;
+    text-align: center;
+    background: #f4f4f4;
+}
+section.services div i{
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 15px;
+}
+section.services div h4{
+    margin-bottom: 25px;
+}
+section.services div:nth-child(even){
+    background: #ffaf7a
+}
