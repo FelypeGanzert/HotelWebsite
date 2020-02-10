@@ -33,17 +33,21 @@ header div{
     max-width: 900px;
     margin: auto;
 }
-header nav li, header a#logo{
-    display: inline-block;
-}
-header a#logo{
+header a{
     color: #fff;
 }
+header a#logo{
+    float: left;
+}
+
 header nav{
     float: right;
 }
-header nav a{
-    color: #fff;
+header nav ul{
+    list-style: none;
+}
+header nav li{
+    float: left;
 }
 header nav a:hover, header nav a.active{
     background: #575151;
