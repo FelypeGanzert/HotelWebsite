@@ -1,0 +1,59 @@
+/* About Section */
+section.about{
+    max-width: 960px;
+    margin: auto;
+}
+section.about div{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+section.about div h3 {
+    font-size: 2.5em;
+}
+section.about div img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+/* Opinions Section */
+section.opinions {
+    text-align: center;;
+    padding-top: 100px;
+    height: 600px;
+    width: 100%;
+    background-image: url('../img/test-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    overflow: auto;
+}
+section.opinions h3{
+    color: white;
+    font-size: 2.5em;
+}
+section.opinions .opinion{
+    max-width: 960px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffaf7ab2;
+    border-radius: 30px;
+    color: #333;
+    overflow: auto;
+}
+
+section.opinions .opinion img {
+    float: left;
+    width: 15%;
+    border-radius: 50%;
+}
+section.opinions .opinion p {
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 20px;
+    width: 80%;
+    float: right;
+}
