@@ -48,12 +48,14 @@ section.more-info a{
 }
 
 /* Services */
+section.services{
+    text-align: center;
+    background: #f4f4f4;
+}
 section.services div{
     float: left;
     width: 33.3%;
     padding: 40px;
-    text-align: center;
-    background: #f4f4f4;
 }
 section.services div i{
     font-size: 40px;
@@ -64,5 +66,5 @@ section.services div h4{
     margin-bottom: 25px;
 }
 section.services div:nth-child(even){
-    background: #ffaf7a
+    background: #ffaf7a;
 }
