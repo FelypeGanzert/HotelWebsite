@@ -22,13 +22,13 @@ section.about div img{
 /* Opinions Section */
 section.opinions {
     text-align: center;;
-    padding-top: 100px;
-    height: 600px;
+    padding-top: 60px;
+    height: 650px;
     width: 100%;
     background-image: url('../img/test-bg.jpg');
     background-position: center center;
     background-size: cover;
-    overflow: auto;
+    overflow: hidden;
 }
 section.opinions h3{
     color: white;
@@ -39,7 +39,8 @@ section.opinions .opinion{
     width: 90%;
     margin: 20px auto;
     padding: 20px;
-    background: #ffaf7ab2;
+    background: #ffaf7a;
+    opacity: 0.8;
     border-radius: 30px;
     color: #333;
     overflow: auto;
@@ -47,13 +48,11 @@ section.opinions .opinion{
 
 section.opinions .opinion img {
     float: left;
-    width: 15%;
+    width: 100px;
     border-radius: 50%;
+    margin-right: 20px;
 }
 section.opinions .opinion p {
     margin-top: 10px;
     text-align: left;
-    margin-left: 20px;
-    width: 80%;
-    float: right;
 }
