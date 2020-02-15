@@ -1,0 +1,60 @@
+/* Navbar */
+header a#logo{
+    float: none;
+    text-align: center;
+    display: block;
+}
+
+header nav li, header nav{
+    float: none;
+}
+header nav li a{
+    width: 80%;
+    padding: 5px !important;
+    border-bottom: #444 dotted;
+}
+
+/* Home Main Session */
+section.main h2{
+    padding-top: 80px;
+}
+/* Home info */
+section.main{
+    height: 550px;
+}
+/* Home info section */
+section.more-info div{
+    height: auto;
+    width: 100%;
+    float: none;
+}
+section.more-info div#front-image{
+    display: none;
+}
+/* Home Services */
+section.services div{
+    float: none;
+    width: 100%;
+    padding: 20px;
+}
+
+/* About Section */
+section.about div{
+    width: 100%;
+    float: none;
+    padding: 20px;
+}
+section.about h3{
+    text-align: center;
+}
+section.opinions {
+    padding-top: 10px;
+}
+
+/* Ways of Contact */
+section.contact-way div{
+    float: none;
+    width: 100%;
+    padding: 20px;
+    border-bottom: #444 dotted 1px;
+}
