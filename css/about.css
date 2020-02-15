@@ -21,9 +21,9 @@ section.about div img{
 
 /* Opinions Section */
 section.opinions {
-    text-align: center;;
+    text-align: center;
     padding-top: 60px;
-    height: 650px;
+    height: 100%;
     width: 100%;
     background-image: url('../img/test-bg.jpg');
     background-position: center center;
