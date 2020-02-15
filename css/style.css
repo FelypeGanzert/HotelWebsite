@@ -48,6 +48,7 @@ header nav ul{
 }
 header nav li{
     float: left;
+    text-align: center
 }
 header nav a:hover, header nav a.active{
     background: #575151;
